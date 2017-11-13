@@ -18,7 +18,7 @@ int main(int argc, const char * argv[]) {
 //        f.numberStyle = NSNumberFormatterDecimalStyle;
 //        NSNumber *i = [f numberFromString:num];
         int i = [num intValue];
-        for (;i>=0;i--){
+        for (;i>=0;i-=3){
             NSLog(@"%d",i);
             if(i%5==0){
                 NSLog(@"Found one!");
